@@ -13,6 +13,7 @@ export MANPATH=/opt/local/share/man:$MANPATH
 
 alias ls='ls -G'
 alias rm='rm -i'
+alias grep='grep -n'
 
 alias afeff='open -a /Applications/Adobe\ After\ Effects\ CC\ 2018/Adobe\ After\ Effects\ CC\ 2018.app/'
 alias brackets='open -a /Applications/Brackets.app/'
@@ -49,3 +50,5 @@ alias virusbaster='open -a /Applications/TrendMicro.localized/iTIS.app/'
 alias xampp='open -a /Applications/XAMPP/manager-osx.app'
 alias yummyftp='open -a /Applications/Yummy\ FTP.app/'
 alias netbeans='open -a /Applications/NetBeans/NetBeans\ 8.2.app/'
+export PATH="$HOME/.ndenv/bin:$PATH"
+eval "$(ndenv init -)"
