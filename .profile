@@ -50,5 +50,6 @@ alias virusbaster='open -a /Applications/TrendMicro.localized/iTIS.app/'
 alias xampp='open -a /Applications/XAMPP/manager-osx.app'
 alias yummyftp='open -a /Applications/Yummy\ FTP.app/'
 alias netbeans='open -a /Applications/NetBeans/NetBeans\ 8.2.app/'
+alias cyberduck='open -a /Applications/Cyberduck.app/'
 export PATH="$HOME/.ndenv/bin:$PATH"
 eval "$(ndenv init -)"
